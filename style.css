@@ -10,4 +10,31 @@ body{
     background-color: rgb(173, 173, 173)
 }
 
+.main-nav {
+    display: flex;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+    align-items: center;
+}
+
+.logo-nintendo {
+    display: flex;
+    align-items: center;
+    background-color: #e60012;
+    height: inherit;
+    padding: 10px;
+}
+
+.logo-nintendo img {
+    width: 120px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-left: 350px;
+}
+
 @media (max-width: 600px) {}

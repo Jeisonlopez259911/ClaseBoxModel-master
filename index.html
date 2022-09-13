@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <nav>
-        <div><img src="./assets/Nintendo_Blanco.png" alt="logo-nintendo"></div>
-        <div>
+    <nav class="main-nav">
+        <div class="logo-nintendo"><img src="./assets/Nintendo_Blanco.png" alt="logo-nintendo"></div>
            <div>
              <input type="text" placeholder="Busca Juegos, equipo, noticias y más...">
              <select name="select">
@@ -20,12 +20,19 @@
                 <option value="value3">Soporte</option>
              </select>
            </div>
-            <ul>
-                <li>Soporte</li>
-                <li>Lista de Deseos</li>
-                <li>Iniciar Sesión / Registrarse</li>
-            </ul>
-        </div>
+            <div class="menu">
+                <div class="link">
+                    
+                    <span>Soporte</span>
+                </div>
+                <div class="favoritos">
+                    <span>Lista de Deseos</span>
+                </div>
+                <div class="inicio-registro">
+                    <span>Iniciar Sesión / Registrarse</span>
+                </div>
+                
+            </div>
     </nav>
 
     <section>
